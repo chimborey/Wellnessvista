@@ -1,0 +1,78 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* font-title */
+.font-title {
+      font-size: 1.9rem;
+      font-weight:bold;
+      text-transform: capitalize;
+      color: oklch(50.169% 0.2023 26.084);
+      font-family: "Playfair Display", serif;
+}
+
+/* font-text */
+.font-text{
+      font-family: "Inter", sans-serif;
+      font-size: 1.1rem;
+      font-weight: 400;
+      text-transform: capitalize;
+      color: oklch(50.169% 0.2023 26.084);
+      transition: all 0.3s ease;
+      position: relative;
+}
+.font-text:hover{
+      transition: color 0.3s ease;
+      color:oklch(71.803% 0.13298 239.639 / 0.8) ;
+}
+hr{
+      width: 100%;
+     background-color: rgb(32, 12, 206);
+      outline: none;
+      border: none;
+      height: 5%;
+      bottom: -2px;
+      position: absolute;
+      transition: all 0.3s ease;
+}
+/* font-desc */
+.font-desc{
+      font-family: "Playwrite AT", cursive;
+      font-size: 0.9rem;
+      font-weight: 400;
+      text-transform: capitalize;
+      color: oklch(56.311% 0.12654 242.823);
+}
+
+/* btn */
+.btn{
+      width: 130px;
+      border: 1px solid oklch(55.5% 0.163 48.998);
+      outline: none;
+      padding: 0.3rem 1rem;
+      font-family: "Inter", sans-serif;
+      font-size: 1rem;
+      font-weight: 400;
+      text-transform: capitalize;
+      color: oklch(50.169% 0.2023 26.084);
+      background-color: transparent;
+      cursor: pointer;
+      transition: all 0.3s ease;    
+}
+.btn:hover{
+      background-color: oklch(55.5% 0.163 48.998);
+      color: oklch(95.1% 0.026 236.824);
+      transition: all 0.3s ease;
+}
+
+.dark{
+      background-color: oklch(10.89% 0.03247 162.412 / 0.8);
+      width: 100%;
+      height: 100vh;
+      position: absolute;
+      top: 0;
+      left: 0;
+}
+.slick-slide > div{
+      margin: 0 10px;
+}
