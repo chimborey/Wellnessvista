@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import { SpeedInsights } from '@vercel/speed-insights/react'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
 import Home from './Page/Home'
@@ -28,6 +29,7 @@ const App = () => {
         <Route path='/blog' element={<Blog />} />
       </Routes>
       <Footer />
+      <SpeedInsights />
     </BrowserRouter>
   )
 }
